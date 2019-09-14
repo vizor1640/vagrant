@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yum update -y --exclude=kernel
+sudo yum update -y --exclude=kernel
 
-yum install -y nano wget git unzip screen nc telnet
+sudo yum install -y nano wget git unzip screen nc telnet
 
